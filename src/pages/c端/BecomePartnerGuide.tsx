@@ -9,7 +9,7 @@ export default function BecomePartnerGuide() {
     <main className="mobile-page" style={{ paddingTop: 0 }}>
       {/* 可替换广告图 */}
       <div className="partner-ad-banner" onClick={() => navigate('/c/apply-partner')}>
-        <img src="/scenes/scene5.png" alt="成为伙伴" />
+        <img src="scenes/scene5.png" alt="成为伙伴" />
       </div>
 
       {/* 申请入口 */}

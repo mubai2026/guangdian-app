@@ -5,12 +5,12 @@ import GlassCard from '../../components/GlassCard';
 import { BTabBar } from '../../components/FloatingTabBar';
 
 const notesData = [
-  { id: 1, title: '周末看展好去处推荐', cover: '/activities/activity1.png', views: 1280, likes: 86, comments: 12, status: '已发布', date: '2024-07-01', service: '看展同行' },
-  { id: 2, title: '城市骑行路线分享', cover: '/scenes/scene2.png', views: 856, likes: 52, comments: 8, status: '已发布', date: '2024-06-28', service: '城市骑行' },
-  { id: 3, title: '咖啡探店｜藏在巷子里的好店', cover: '/scenes/scene3.png', views: 2100, likes: 128, comments: 24, status: '已发布', date: '2024-06-25', service: '咖啡探店' },
-  { id: 4, title: '瑜伽入门小贴士', cover: '/activities/activity2.png', views: 560, likes: 34, comments: 5, status: '审核中', date: '2024-06-20', service: '瑜伽课程' },
-  { id: 5, title: '摄影技巧分享｜如何拍出氛围感', cover: '/activities/activity5.png', views: 1560, likes: 98, comments: 18, status: '已发布', date: '2024-06-15', service: '摄影跟拍' },
-  { id: 6, title: '徒步装备清单', cover: '/scenes/scene1.png', views: 920, likes: 65, comments: 9, status: '草稿', date: '2024-06-10', service: '户外徒步' },
+  { id: 1, title: '周末看展好去处推荐', cover: 'activities/activity1.png', views: 1280, likes: 86, comments: 12, status: '已发布', date: '2024-07-01', service: '看展同行' },
+  { id: 2, title: '城市骑行路线分享', cover: 'scenes/scene2.png', views: 856, likes: 52, comments: 8, status: '已发布', date: '2024-06-28', service: '城市骑行' },
+  { id: 3, title: '咖啡探店｜藏在巷子里的好店', cover: 'scenes/scene3.png', views: 2100, likes: 128, comments: 24, status: '已发布', date: '2024-06-25', service: '咖啡探店' },
+  { id: 4, title: '瑜伽入门小贴士', cover: 'activities/activity2.png', views: 560, likes: 34, comments: 5, status: '审核中', date: '2024-06-20', service: '瑜伽课程' },
+  { id: 5, title: '摄影技巧分享｜如何拍出氛围感', cover: 'activities/activity5.png', views: 1560, likes: 98, comments: 18, status: '已发布', date: '2024-06-15', service: '摄影跟拍' },
+  { id: 6, title: '徒步装备清单', cover: 'scenes/scene1.png', views: 920, likes: 65, comments: 9, status: '草稿', date: '2024-06-10', service: '户外徒步' },
 ];
 
 const tabs = ['全部', '已发布', '审核中', '草稿'];

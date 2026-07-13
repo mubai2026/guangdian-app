@@ -6,9 +6,9 @@ import { CTabBar } from '../../components/FloatingTabBar';
 import { cards, categories, discoverCards } from '../../mock/data';
 
 const banners = [
-  { id: 1, title: '邀请有礼', desc: '邀请得20积分，好友得10积分', bg: 'linear-gradient(135deg,#FF7A45,#FF6B00)', img: '/scenes/scene1.png', route: '/c/invite' },
-  { id: 2, title: '夏日限定', desc: '清凉一夏，户外搭子特惠', bg: 'linear-gradient(135deg,#A855F7,#9333EA)', img: '/scenes/scene2.png' },
-  { id: 3, title: '技能交换', desc: '用你的技能温暖他人', bg: 'linear-gradient(135deg,#3B82F6,#1D4ED8)', img: '/scenes/scene3.png' },
+  { id: 1, title: '邀请有礼', desc: '邀请得20积分，好友得10积分', bg: 'linear-gradient(135deg,#FF7A45,#FF6B00)', img: 'scenes/scene1.png', route: '/c/invite' },
+  { id: 2, title: '夏日限定', desc: '清凉一夏，户外搭子特惠', bg: 'linear-gradient(135deg,#A855F7,#9333EA)', img: 'scenes/scene2.png' },
+  { id: 3, title: '技能交换', desc: '用你的技能温暖他人', bg: 'linear-gradient(135deg,#3B82F6,#1D4ED8)', img: 'scenes/scene3.png' },
 ];
 
 const hotSearches = ['晨跑搭子', '露营', '看展', '咖啡探店', '游泳', '城市骑行', '剧本杀', '健身'];
